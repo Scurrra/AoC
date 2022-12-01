@@ -1,9 +1,11 @@
+## https://twitter.com/Scurrra/status/1598255995914182659?s=20&t=TopOVOEDTM6SgMEgMBABFg
+
 import strutils
 from std/algorithm import sort, Descending
 from std/math import sum
 
 let
-    lines = readLines("in1.txt", 2250)
+    lines = readLines("in.txt", 2250)
 
 var
     cals: seq[int] = @[]
